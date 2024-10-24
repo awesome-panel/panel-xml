@@ -2,21 +2,21 @@
 
 ## Overview
 
-`panel-xml` is an interactive pane to make displaying and exploring XML with [HoloViz Panel](https://panel.holoviz.org/).
+`panel-xml` is an interactive pane designed for displaying and exploring XML within [HoloViz Panel](https://panel.holoviz.org/).
 
-Based on [react-xml-viewer](https://github.com/alissonmbr/react-xml-viewer).
+It is based on [react-xml-viewer](https://github.com/alissonmbr/react-xml-viewer).
 
 [![panel-xml](https://github.com/awesome-panel/panel-xml/blob/main/static/panel-xml.png?raw=true)](https://py.cafe/awesome.panel.org/panel-xml-editor)
 
 ### Key Features
 
-- **Configurable depth**: Set an initial collapsible depth
-- **Collapse/ Expand tags**: Collapse or expand by tags to make it more intuitive
-- **Configurable Theme**: Configure the colors used
+- **Configurable Depth**: Set an initial collapsible depth for better navigation.
+- **Collapse/Expand Tags**: Intuitively collapse or expand tags to streamline XML exploration.
+- **Customizable Theme**: Configure the colors and appearance with a customizable theme.
 
 ## Installation
 
-You can install the package using `pip`:
+You can install `panel-xml` using `pip`:
 
 ```bash
 pip install panel-xml
@@ -24,7 +24,7 @@ pip install panel-xml
 
 ## Usage
 
-### Basic Mermaid Diagram
+### Basic XML Pane
 
 Here’s how to create a simple XML pane using the `XML` widget:
 
@@ -44,30 +44,28 @@ xml = '''
 XML(object=xml, depth=2).servable()
 ```
 
-[Try on PY.CAFE]()
+[Try it on PY.CAFE](https://py.cafe/snippet/panel/v1#c=H4sIABCbGmcAA41SzUrDQBB-lTCXKsRoKyoE60ERPOjFgwpNkW13alY2u-tm-hNK393ZpLEWLS2BkJn55vvZ7BLGViKkoApnPUVOGNSRKCNnMjPxtmg674tCR2vI29NjxkNnElwQmlJZc3QcOgHTjzqdTmaup_qG31rdPKDW9vqUv5r61Xot2_q0htUbmWHeIzv6xDH1mSmOJDrK-73jpEQ_EyONQQVi8Pg1VR4LNFSy8dpf5tlQa5QxVLkQqm5xKZx7UTiHdCJ0iTGgVHRvAiek5KfccRXl1oSVykol8WR2lvQuky4va1HZKUG6hBn6kBbSHruwlp4tUy5bMc9VDONcaemRQYOfCYlRicTDuZKUQ9q9OIuhUOa1Kc-b6gHVR846oVSS1yZK4y2zcv47a0gog36HQoCejBosQ5wIvACr4Sr-62KHxc0eH1fiKtje3Yx__4CEFrQtc8Ax7I--jrIvdpv4_5z5mrV7dXGIJqHnttD7RFtcUA3PKq6Pn-_iYLj6BpCXmpVQAwAA)
 
 ### Parameters
 
-- `object`: A xml string to prettify.
-- `indent_size` The size of the indentation.
-- `collapsible`: Allow collapse/expand tags by click on them. When tag is collapsed its content and attributes are hidden.
-- `depth`: When the collapsible is True, this sets the the level that will be collapsed to
-    initially. For example, if you want to everything starts as collapsed, set 0. If you want
-    it fully expanded set it to -1.
-- `theme`: A dictionary to customize the default theme. See [react-xml-viewer | theme-object](https://github.com/alissonmbr/react-xml-viewer#theme-object).
+- `object`: The XML string to display in a prettified format.
+- `indent_size`: The size of the indentation.
+- `collapsible`: Enable collapsing/expanding tags. When collapsed, content and attributes are hidden.
+- `depth`: When `collapsible` is set to `True`, this defines the initial collapsed depth. Set it to `0` for fully collapsed, or `-1` for fully expanded.
+- `theme`: A dictionary to customize the theme. See the [react-xml-viewer theme documentation](https://github.com/alissonmbr/react-xml-viewer#theme-object) for details.
 
 ## XML Editor
 
-Check out the live XML Editor [Code]() or [App]().
+Try out the live XML Editor [here](https://py.cafe/awesome.panel.org/panel-xml-editor) for code or [here](https://py.cafe/app/awesome.panel.org/panel-xml-editor) for the app.
 
-[![Panel Mermaid | Diagram Editor]()]()
+[![Panel XML | Diagram Editor](https://github.com/awesome-panel/panel-xml/blob/main/static/panel-xml-editor.gif?raw=true)](https://py.cafe/awesome.panel.org/panel-xml-editor)
 
 ## Contributions
 
-We welcome contributions to this project! Please feel free to submit issues or pull requests to the [GitHub repository](https://github.com/awesome-panel/panel-xml). Check out the [DEVELOPER_GUIDE](DEVELOPER_GUIDE.md) for more info.
+Contributions are welcome! Please submit issues or pull requests to the [GitHub repository](https://github.com/awesome-panel/panel-xml). Check out the [DEVELOPER_GUIDE](DEVELOPER_GUIDE.md) for more information.
 
 ## License
 
 This project is licensed under the MIT License.
 
-Start using rich, interactive xml directly in your Python applications with `panel-xml`!
+Start using `panel-xml` to integrate rich, interactive XML displays directly into your Python applications!
