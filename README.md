@@ -6,7 +6,7 @@
 
 Based on [react-xml-viewer](https://github.com/alissonmbr/react-xml-viewer).
 
-[![panel-xml](https://github.com/awesome-panel/panel-xml/blob/main/static/panel-xml-bootstrap.png?raw=true)](https://py.cafe/awesome.panel.org/panel-xml-diagrams)
+[![panel-xml](https://github.com/awesome-panel/panel-xml/blob/main/static/panel-xml.png?raw=true)](https://py.cafe/awesome.panel.org/panel-xml-editor)
 
 ### Key Features
 

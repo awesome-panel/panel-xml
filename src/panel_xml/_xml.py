@@ -116,7 +116,7 @@ export function render({ model }) {
             self.param.collapsible,
             self.param.depth,
             pn.pane.Markdown("Theme", margin=(-5, 5, -10, 5)),
-            pn.widgets.JSONEditor.from_param(self.param.theme),
+            pn.widgets.JSONEditor.from_param(self.param.theme,),
             **params,
         )
 
