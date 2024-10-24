@@ -4,6 +4,8 @@
 
 `panel-xml` is an interactive pane to make displaying and exploring XML with [HoloViz Panel](https://panel.holoviz.org/).
 
+Based on [react-xml-viewer](https://github.com/alissonmbr/react-xml-viewer).
+
 [![panel-xml](https://github.com/awesome-panel/panel-xml/blob/main/static/panel-xml-bootstrap.png?raw=true)](https://py.cafe/awesome.panel.org/panel-xml-diagrams)
 
 ### Key Features
@@ -48,11 +50,11 @@ XML(object=xml, depth=2).servable()
 
 - `object`: A xml string to prettify.
 - `indent_size` The size of the indentation.
-- `collapsible Allow collapse/expand tags by click on them. When tag is collapsed its content and attributes are hidden.
-- `depth` When the collapsible is True, this sets the the level that will be collapsed to
+- `collapsible`: Allow collapse/expand tags by click on them. When tag is collapsed its content and attributes are hidden.
+- `depth`: When the collapsible is True, this sets the the level that will be collapsed to
     initially. For example, if you want to everything starts as collapsed, set 0. If you want
     it fully expanded set it to -1.
-- `theme` A dictionary to customize the default theme. See [react-xml-viewer | theme-object](https://github.com/alissonmbr/react-xml-viewer#theme-object).
+- `theme`: A dictionary to customize the default theme. See [react-xml-viewer | theme-object](https://github.com/alissonmbr/react-xml-viewer#theme-object).
 
 ## XML Editor
 
