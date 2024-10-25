@@ -5,7 +5,7 @@
 
 `panel-xml` provides the `XML` *pane* to display and explore XML in notebooks and [Panel](https://panel.holoviz.org/) data apps.
 
-![panel-xml in notebook](static/panel-xml-notebook.png)
+![panel-xml in notebook](https://github.com/awesome-panel/panel-xml/blob/main/static/panel-xml-notebook.png?raw=true)
 
 It is based on [react-xml-viewer](https://github.com/alissonmbr/react-xml-viewer).
 

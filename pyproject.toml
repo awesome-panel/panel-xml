@@ -1,12 +1,12 @@
 [project]
-name = "panel_xml"
-version = "0.1.1"
+name = "panel-xml"
+version = "0.1.2"
 description = "A project providing a XML Pane for use with HoloViz Panel."
 readme = "README.md"
 authors = [
     { name = "Marc Skov Madsen", email = "masma@gmail.com" }
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = ["panel>=1.5.2"]
 
 [build-system]
