@@ -49,6 +49,8 @@ xml = '''
 XML(object=xml, depth=2).servable()
 ```
 
+## Api
+
 ### Parameters
 
 - `object` (str): The XML string to display in a prettified format.
