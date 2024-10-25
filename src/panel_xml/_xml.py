@@ -48,22 +48,22 @@ class XML(ReactComponent):
     ```
     """
     
-    object = param.String(doc="""A xml string to prettify.""")
-    indent_size = param.Integer(
+    object: str = param.String(doc="""A xml string to prettify.""")
+    indent_size: int = param.Integer(
         default=2, bounds=(1, 10), doc="""The size of the indentation."""
     )
-    collapsible = param.Boolean(
+    collapsible: bool = param.Boolean(
         default=True,
         doc="""Allow collapse/expand tags by click on them. When tag is collapsed its content and attributes are hidden.""",
     )
-    depth = param.Integer(
+    depth: int = param.Integer(
         default=-1,
         bounds=(-1, 10),
         doc="""When the collapsible is True, this sets the the level that will be collapsed to
         initially. For example, if you want to everything starts as collapsed, set 0. If you want
         it fully expanded set it to -1.""",
     )
-    theme = param.Dict(
+    theme: dict = param.Dict(
         default=_THEME,
         doc="""A dictionary to customize the default theme.
         See https://github.com/alissonmbr/react-xml-viewer#theme-object""",
