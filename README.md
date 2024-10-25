@@ -1,6 +1,5 @@
 # ✨ panel-xml
 
-[![Downloads](https://pepy.tech/badge/panel-xml/month)](https://pepy.tech/project/panel-xml)
 [![License](https://img.shields.io/badge/License-MIT%202.0-blue.svg)](https://opensource.org/licenses/MIT)
 [![py.cafe](https://py.cafe/badge.svg)](https://py.cafe/awesome.panel.org/panel-xml-basic)
 
@@ -68,7 +67,7 @@ XML(object=xml, depth=2).servable()
 
 ## ❤️ Contributions
 
-Contributions are welcome! Please submit issues or pull requests to the [GitHub repository](https://github.com/awesome-panel/panel-xml). Check out the [DEVELOPER_GUIDE](DEVELOPER_GUIDE.md) for more information.
+Contributions and co-maintainers are very welcome! Please submit issues or pull requests to the [GitHub repository](https://github.com/awesome-panel/panel-xml). Check out the [DEVELOPER_GUIDE](DEVELOPER_GUIDE.md) for more information.
 
 ----
 
