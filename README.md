@@ -3,7 +3,7 @@
 [![Downloads](https://pepy.tech/badge/panel-xml/month)](https://pepy.tech/project/panel-xml)
 [![License](https://img.shields.io/badge/License-MIT%202.0-blue.svg)](https://opensource.org/licenses/MIT)
 
-`panel-xml` is an interactive pane designed for displaying and exploring XML in notebooks and [Panel](https://panel.holoviz.org/) data apps.
+`panel-xml` provides the `XML` component to display and explore XML in notebooks and [Panel](https://panel.holoviz.org/) data apps.
 
 It is based on [react-xml-viewer](https://github.com/alissonmbr/react-xml-viewer).
 
