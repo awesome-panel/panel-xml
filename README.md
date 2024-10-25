@@ -71,6 +71,10 @@ XML(object=xml, depth=2).servable()
 
 Contributions and co-maintainers are very welcome! Please submit issues or pull requests to the [GitHub repository](https://github.com/awesome-panel/panel-xml). Check out the [DEVELOPER_GUIDE](DEVELOPER_GUIDE.md) for more information.
 
+## Alternatives
+
+- [Panel CodeEditor](https://panel.holoviz.org/reference/widgets/CodeEditor.html): Displays XML nicely if `language="xml"`.
+
 ----
 
 Start using `panel-xml` to integrate rich, interactive XML displays directly into your Python applications!
