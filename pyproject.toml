@@ -1,6 +1,6 @@
 [project]
 name = "panel-xml"
-version = "0.1.3"
+version = "0.1.4"
 description = "A project providing a XML Pane for use with HoloViz Panel."
 readme = "README.md"
 authors = [

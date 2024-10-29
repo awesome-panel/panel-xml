@@ -46,7 +46,7 @@ xml = '''
 </ul>
 '''
 
-XML(object=xml, depth=2).servable()
+XML(xml, depth=2).servable()
 ```
 
 ## Api

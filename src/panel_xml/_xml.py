@@ -109,6 +109,14 @@ export function render({ model }) {
 
     _react_version = REACT_VERSION
 
+    def __init__(self, object: str, **params):
+        """A XML Pane
+
+        Args:
+            object (str): The xml string to display.
+        """
+        super().__init__(object=object, **params)
+
     def settings(self, **params):
         return pn.Column(
             pn.pane.Markdown("**XML Settings**", margin=(10, 5, -10, 5)),

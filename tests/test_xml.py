@@ -23,4 +23,6 @@ def test_configuration():
     viewer = XML(object=xml)
     assert viewer.object
     assert viewer.settings()
+
+    XML(xml, depth=2)
     
